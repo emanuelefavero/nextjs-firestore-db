@@ -33,6 +33,10 @@ npm run dev
 
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
 
+## Resources
+
+- [Firestore Docs](https://firebase.google.com/docs/firestore/quickstart?hl=en&authuser=0#web-version-9_1)
+
 ## License
 
 - [MIT](LICENSE.md)
