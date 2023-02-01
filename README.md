@@ -2,6 +2,10 @@
 
 This is a simple example of how to use Next.js with Firestore database
 
+## Live Demo
+
+- [https://nextjs-firestore-db.vercel.app/](https://nextjs-firestore-db.vercel.app/)
+
 ## Getting Started
 
 - Clone the repo and `cd` into it
