@@ -6,9 +6,13 @@ export default function Header() {
   return (
     <>
       {router.pathname === '/' ? (
-        <Link href='/'>Home</Link>
+        <Link className='link' href='/'>
+          Home
+        </Link>
       ) : (
-        <Link href='/'>Go Home</Link>
+        <Link className='link' href='/'>
+          Go Home
+        </Link>
       )}
     </>
   )
