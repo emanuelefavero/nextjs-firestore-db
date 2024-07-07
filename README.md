@@ -12,8 +12,6 @@ This is a simple example of how to use Next.js with Firestore database
 
 - Create a Firebase project on the [Firebase console](https://console.firebase.google.com/)
 
-- Replace the Firebase config in `firebase/config.ts` with your own. (You can find this in the Firebase console)
-
 - Enable Firestore in the Firebase console and add a collection called `posts` with a document containing the following fields:
 
 ```json
@@ -21,6 +19,17 @@ This is a simple example of how to use Next.js with Firestore database
   "title": "My first post",
   "content": "This is my first post"
 }
+```
+
+- Add a new web app in Firebase settings, get the Firebase config object from the Firebase console and add it to a `.env.local` file in the root of the project:
+
+```bash
+API_KEY=
+AUTH_DOMAIN=
+PROJECT_ID=
+STORAGE_BUCKET=
+MESSAGING_SENDER_ID=
+APP_ID=
 ```
 
 - Install the dependencies:
