@@ -23,6 +23,8 @@ This is a simple example of how to use Next.js with Firestore database
 
 - Add a new web app in Firebase settings, get the Firebase config object from the Firebase console and add it to a `.env.local` file in the root of the project:
 
+> Note: Firebase API keys are public by design, but make sure to have proper security rules in place for your Firestore database.
+
 ```bash
 API_KEY=
 AUTH_DOMAIN=
